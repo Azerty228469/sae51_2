@@ -1,0 +1,4 @@
+#Sauvegarde immédiate au lancement
+* * * * * /cron_sauvegarde.sh
+#Sauvegarde chaque dimanche à minuit
+0 0 * * 0 /cron_sauvegarde.sh
